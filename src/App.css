@@ -1,0 +1,25 @@
+.App {
+	display: flex;
+	flex-flow: nowrap column;
+	align-items: center;
+	margin: 3rem;
+	text-align: center;
+}
+.App > input{
+	width: 608px;
+	padding: .5rem;
+}
+span{
+	display: flex;
+	flex-flow: nowrap row;
+	flex: 1;
+	justify-content: center;
+}
+#markdownBox{
+	border: 1px solid;
+	width: 300px;
+}
+textarea{
+	min-width: 300px;
+	min-height: 300px;
+}
